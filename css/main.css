@@ -1,0 +1,174 @@
+/*****BASE STYLES*****/
+
+body{
+  font-family:'Source Sans Pro',sans-serif;
+  color:#2b2b2b;
+}
+
+#about, #work, #contact{
+  height:600px;
+}
+
+/*****HEADER*****/
+header{
+  height: 800px;
+  background: url('../img/hero.png');
+  background-size: cover;
+}
+
+header h1{
+  font-family:"Lora",serif;
+  font-size: 30px;
+  color: #bbc085;
+  padding:65px 0 65px 25px;
+}
+
+header h2{
+  width:900px;
+  clear: both;
+  font-family: 'Lora',serif;
+  font-size: 50px;
+  color:#9b9b9b;
+  padding: 20px 0 20px 25px;
+}
+
+header h2 span{
+  color:black;
+}
+
+nav {
+  float: right;
+}
+
+nav ul li{
+  display:inline-block;
+  text-transform: uppercase;
+  text-decoration:underline;
+  font-size:15px;
+  color:#bbbbbb;
+  padding: 65px 80px 0 0;
+}
+
+/*****GRID*****/
+
+.full-width{
+  width:1200px;
+  margin:0 auto;
+}
+
+.half-width{
+  width:600px;
+  float:left;
+}
+
+.third-width{
+  width:400px;
+  float:left;
+}
+
+/*****ABOUT*****/
+
+#about .full-width{
+  padding:80px 0;
+}
+
+#about h2{
+  font-family: 'Lora',serif;
+  font-size:25px;
+  padding-left:50px;
+}
+
+#about p{
+  font-family: 'Lora',serif;
+  line-height: 30px;
+  padding: 0 50px 0 50px;
+}
+
+/*****WORK*****/
+
+#work{
+  background-color: #f9ceb7;
+  text-align: center;
+}
+
+#work .full-width{
+  padding: 115px 0;
+}
+
+#work img{
+  padding-bottom: 30px;
+}
+
+#work h3{
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size:25px;
+  width:200px;
+  line-height: 30px;
+  margin:0 auto;
+}
+
+#work p{
+  font-family:'Lora',serif;
+  line-height: 30px;
+  padding:0 50px;
+
+}
+
+/*****CONTACT*****/
+
+#contact{
+  background-color: #ebebeb;
+}
+
+#contact .full-width{
+  padding: 110px 0;
+  float: left;
+}
+
+#contact .half-width{
+  float:left;
+}
+
+#contact-img{
+  border: 20px solid white;
+  margin-left: 125px;
+}
+
+#contact h2, #contact #email-header, #contact #socialMedia-header{
+    padding-left: 115px;
+    margin-left: 125px;
+}
+
+#contact #envelope {
+    padding: 0 10px 0 115px;
+    margin-left: 125px;
+}
+
+#contact h2{
+  font-family: 'Lora',serif;
+  font-size: 25px;
+}
+
+#email-header{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+#socialMedia-header{
+  font-family: 'Source Sans Pro',sans-serif;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 40px;
+}
+
+#contact ul {
+    list-style: none;
+}
+#contact ul li {
+     display: inline-block;
+}
+#contact ul img {
+    font-size: 32px;
+    padding-right: 10px;
+}
